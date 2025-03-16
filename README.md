@@ -7,24 +7,23 @@
 /restaurant-chain-system
 ├── /assets
 │   ├── /css
-│   │   └── style.css            # 全体のスタイルシート
+│   │   └── style.css            
 │   └── /js
-│       └── script.js            # JavaScript（Bootstrap用、フォーム処理など）
-├── /classes
-│   ├── Employee.php             # Employeeクラス
-│   ├── Company.php              # Companyクラス
-│   ├── RestaurantLocation.php   # RestaurantLocationクラス
-│   ├── RestaurantChain.php      # RestaurantChainクラス
-│   └── User.php                 # Userクラス
+│       └── script.js            
+├── /Models
+│   ├── Employee.php             # Employeeモデル
+│   ├── Company.php              # Companyモデル
+│   ├── RestaurantLocation.php   # RestaurantLocationモデル
+│   ├── RestaurantChain.php      # RestaurantChainモデル
+│   └── User.php                 # Userモデル
 ├── /helpers
-│   └── RandomGenerator.php      # 偽データ生成用のRandomGeneratorクラス
+│   └── RandomGenerator.php      # 偽データ生成用
 ├── /templates
-│   └── layout.php               # ページ全体のレイアウト（ヘッダー、フッター、共通部分）
+│   └── layout.php               # ページ全体のレイアウト
 ├── /public
 │   └── index.php                # アプリケーションのエントリーポイント
 └── /vendor
-    └── /autoload.php            # Composerの自動読み込み設定ファイル（composer install後に生成される）
-
+    └── /autoload.php           
 </pre>
 
 
