@@ -9,7 +9,9 @@
 │   ├── /css
 │   │   └── style.css            
 │   └── /js
-│       └── script.js            
+│       └── script.js  
+├── /Interface   
+│   ├── FileConvertible.php      #ファイル変換用のインターフェース    
 ├── /Models
 │   ├── Employee.php             # Employeeモデル
 │   ├── Company.php              # Companyモデル
