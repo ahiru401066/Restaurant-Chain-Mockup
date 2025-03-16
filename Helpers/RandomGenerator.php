@@ -3,13 +3,13 @@
 namespace Helpers;
 
 use Faker\Factory;
+use Models\Employee;
 use Models\User;
 
 class RandomGenerator {
-    public static function user(): User {
+    public static function employee(): Employee {
         $faker = Factory::create();
-
-        return new User(
+        return new Employee(
             $faker->randomNumber(),
             $faker->firstName(),
             $faker->lastName(),
@@ -19,18 +19,18 @@ class RandomGenerator {
             $faker->address(),
             $faker->dateTimeThisCentury,
             $faker->dateTimeBetween('-10 years', '+20 years'),
-            $faker->randomElement(['admin', 'user', 'editor'])
+            $faker->randomElement(['admin', 'user', 'editor']),
+            $faker->jobTitle(),
+            100.0,
+            $faker->date('Y_m_d'),
+            ["Japan", "Asia"],
         );
     }
-
-    public static function users(): array {
-        $faker = Factory::create();
-        $users = [];
-
-        for ($i = 0; $i < 3; $i++) {
-            $users[] = self::user();
+    public static function employees(): array {
+        $employees = [];
+        for ($i = 0; $i < 2; $i++) {
+            $employees[] = self::employee();
         }
-
-        return $users;
+        return $employees;
     }
 }
