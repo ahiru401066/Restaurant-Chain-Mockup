@@ -2,7 +2,8 @@
 2025.03 オブジェクト指向プログラミングでの構築
 
 ファイル構成
-`
+
+<pre>
 /restaurant-chain-system
 ├── /assets
 │   ├── /css
@@ -10,17 +11,20 @@
 │   └── /js
 │       └── script.js            
 ├── /Models
-│   ├── Employee.php             
-│   ├── Company.php              
-│   ├── RestaurantLocation.php   
-│   ├── RestaurantChain.php      
-│   └── User.php                 
+│   ├── Employee.php             # Employeeモデル
+│   ├── Company.php              # Companyモデル
+│   ├── RestaurantLocation.php   # RestaurantLocationモデル
+│   ├── RestaurantChain.php      # RestaurantChainモデル
+│   └── User.php                 # Userモデル
 ├── /helpers
-│   └── RandomGenerator.php      # 偽データ生成用のRandomGeneratorクラス
+│   └── RandomGenerator.php      # 偽データ生成用
 ├── /templates
-│   └── layout.php               # ページ全体のレイアウト（ヘッダー、フッター、共通部分）
+│   └── layout.php               # ページ全体のレイアウト
 ├── /public
 │   └── index.php                # アプリケーションのエントリーポイント
 └── /vendor
-    └── /autoload.php            # Composerの自動読み込み設定ファイル（composer install後に生成される）
-`
+    └── /autoload.php           
+</pre>
+
+
+
