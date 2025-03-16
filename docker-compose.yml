@@ -6,5 +6,5 @@ services:
     tty: true
     ports:
       - "8000:8000"
-    working_dir: /app
-    # command: php -S 0.0.0.0:8000
+    working_dir: /app/public
+    command: php -S 0.0.0.0:8000
