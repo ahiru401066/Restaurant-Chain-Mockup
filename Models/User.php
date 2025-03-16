@@ -74,8 +74,7 @@ class User implements FileConvertible {
 
     public function toHTML():string {
         return sprintf("
-            <div class='user-card'>
-                <div class='avatar'>SAMPLE</div>
+            <div class='user'>
                 <h2>%s %s</h2>
                 <p>%s</p>
                 <p>%s</p>
