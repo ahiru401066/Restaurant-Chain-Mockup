@@ -6,22 +6,22 @@
 
 restaurant-chain-system 
 |-- /assets  
-    |-- /css  
-        |-- style.css  
-    |-- /js  
-        |-- script.js  
+|   |-- /css  
+|      |-- style.css  
+|   |-- /js  
+|      |-- script.js  
 |-- /Models  
-    |-- Employee.php  
-    |-- Company.php  
-    |-- RestaurantLocation.php  
-    |-- RestaurantChain.php  
-    |-- User.php  
+|  |-- Employee.php  
+|   |-- Company.php  
+|   |-- RestaurantLocation.php  
+|   |-- RestaurantChain.php  
+|   |-- User.php  
 |-- /helpers  
-    |-- RandomGenerator.php　　偽データ生成用のRandomGeneratorクラス  
+|   |-- RandomGenerator.php　　偽データ生成用のRandomGeneratorクラス  
 |-- /templates
-    |-- layout.php  
+|   |-- layout.php  
 |-- /public  
-    |-- index.php　　　アプリケーションのエントリーポイント  
+|  |-- index.php　　　アプリケーションのエントリーポイント  
 |-- /vendor
-    |-- autoload.php  
+|   |-- autoload.php  
 
