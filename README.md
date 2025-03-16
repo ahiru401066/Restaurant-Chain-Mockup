@@ -2,6 +2,13 @@
 2025.03 オブジェクト指向プログラミングでの構築
 
 ファイル構成
+
+#restaurant-chain-system
+##asset
+###css
+###js
+##Models
+
 `
 /restaurant-chain-system
 ├── /assets
