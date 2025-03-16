@@ -11,7 +11,7 @@ require_once  '../vendor/autoload.php';
 use Helpers\RandomGenerator;
 
 // ユーザーの生成
-$users = RandomGenerator::users();
+$employees = RandomGenerator::employees();
 ?>
 
 <!DOCTYPE html>
@@ -26,10 +26,9 @@ $users = RandomGenerator::users();
     </head>
     <body>
         <h1>User Profiles</h1>
-
-        <?php foreach ($users as $user): ?>
+        <?php foreach ($employees as $employee): ?>
         <div>
-            <?php echo $user->toHTML(); ?>
+            <?php echo $employee->toHTML(); ?>
         </div>
         <?php endforeach; ?>
 
